@@ -1,0 +1,517 @@
+{
+    "2021": [],
+    "2020": [
+        {
+            "id": "1",
+            "date": "2020/03/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "2",
+            "date": "2020/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ],
+    "2019": [
+        {
+            "id": "3",
+            "date": "2019/03/23",
+            "target": [
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2019/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "5",
+            "date": "2019/01/03",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ],
+    "2018": [
+        {
+            "id": "3",
+            "date": "2019/03/23",
+            "target": [
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2019/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "5",
+            "date": "2019/01/03",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ],
+    "2017": [
+        {
+            "id": "3",
+            "date": "2019/03/23",
+            "target": [
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2019/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "5",
+            "date": "2019/01/03",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ],
+    "2016": [
+        {
+            "id": "3",
+            "date": "2019/03/23",
+            "target": [
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2019/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "5",
+            "date": "2019/01/03",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ],
+    "2015": [
+        {
+            "id": "3",
+            "date": "2019/03/23",
+            "target": [
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C",
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW",
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00",
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2019/01/23",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        },
+        {
+            "id": "5",
+            "date": "2019/01/03",
+            "target": [
+                "A",
+                "B",
+                "C"
+            ],
+            "vendor": [
+                "ROSEN",
+                "TDW"
+            ],
+            "totalAnomalies": 80,
+            "segment": "BEAM1006",
+            "source": [
+                "CXG2020-03",
+                "CXG2020-02",
+                "CXG2020-01",
+                "CXG2020-00"
+            ]
+        }
+    ]
+}

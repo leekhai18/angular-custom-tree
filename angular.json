@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "AE-custom-update-time-line"
+  "defaultProject": "AE-custom-update-time-line",
+  "cli": {
+    "analytics": false
+  }
 }

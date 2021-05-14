@@ -1,0 +1,27 @@
+<div #node class="node">
+    <div class="node__root">
+        <div class="index" [ngClass]="{'index--expanded': isExpanded}">{{index}}</div>
+        <div class="time-line"></div>
+    </div>
+    <div class="node__body">
+        <div class="root-linked"></div>
+        <div class="content">
+            <div #header class="content__header" (click)="onToggle.emit({elementRef: node, scrollTarget: header})">{{data['date']}}</div>
+            <div #main class="content__main" 
+                [@expandedCollapsed]="{
+                    value: isExpanded ? 'expanded' : 'collapsed',
+                    params: {expandedHeight: main.scrollHeight}
+                }">
+                <p>{{main.scrollHeight}}</p>
+                <p>Target: {{data['target'].toString()}}</p>
+                <p class="ellipsis">Vendor: {{data['vendor'].toString()}}</p>
+                <p>Total anomalies: {{data['totalAnomalies']}}</p>
+                <p>{{data['segment']}}</p>
+                <p>{{data['source']}}</p>
+                <p>{{data['segment']}}</p>
+                <p>{{data['source']}}</p>
+                <p>VIEW REPORT</p>
+            </div>
+        </div>
+    </div>
+</div>

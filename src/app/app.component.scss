@@ -1,0 +1,18 @@
+:host { 
+  display: block; 
+  overflow: auto;
+  height: 50vh;
+}
+
+.time-line {
+  width: 3px;
+  border-radius: 3px;
+  height: 48px;
+  margin-left: 14px;
+  background: #777777;
+}
+
+app-node {
+  width: 400px;
+}
+
