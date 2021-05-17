@@ -26,14 +26,14 @@ export class AppComponent implements OnInit {
     });
   }
 
-  toggle(key: string, data: {elementRef: HTMLElement, scrollTarget: HTMLElement}) {
+  toggle(key: string, data: {rectBox: HTMLElement, scrollTarget: HTMLElement}) {
     if (this.expandedState[key] === true) {
       Object.keys(this.expandedState).forEach(key => this.expandedState[key] = false);
     } else {
       Object.keys(this.expandedState).forEach(key => this.expandedState[key] = false);
       this.expandedState[key] = true;
       setTimeout(() => {
-        this.scroll(data.elementRef, data.scrollTarget);
+        this.scroll(data.rectBox, data.scrollTarget);
       }, 200);
     }
   }
@@ -49,14 +49,18 @@ export class AppComponent implements OnInit {
     if (rect.height <= containerRect.height) {
       if (rect.bottom <= containerRect.bottom) {
         if (rect.top < containerRect.top) {
-          scrollTarget.scrollIntoView({ behavior: 'smooth' });
+          setTimeout(() => {
+            scrollTarget.scrollIntoView({ behavior: 'smooth' });
+          });
         }
       } else {
         const top = this.elementRef.nativeElement.scrollTop + (rect.bottom - containerRect.bottom);
         this.elementRef.nativeElement.scrollTo({top: top, behavior: 'smooth'});
       }
     } else {
-      scrollTarget.scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => {
+        scrollTarget.scrollIntoView({ behavior: 'smooth' });
+      });
     }
   }
 }
