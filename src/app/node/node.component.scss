@@ -34,6 +34,7 @@
   .node__body {
     top: -4px;
     position: relative;
+    width: 100%;
     display: flex;
 
     .root-linked {
@@ -47,17 +48,94 @@
     .content {
       position: relative;
       top: -13px;
-      width: 100%;
+      width: calc(100% - 40px);
 
       .content__header {
+        display: flex;
+        align-items: center;
         background: #0099CC;
+        color: #FBFBFB;
+        ;
+        box-shadow: 0px 0px 2px #00000029;
+        border-radius: 4px 4px 0px 0px;
         height: 30px;
+        padding: 0px 8px;
       }
 
       .content__main {
-        background: #777777;
+        background: #FFFFFF;
+        color: #3D3D3D;
+        box-shadow: 0px 0px 2px #00000029;
+        border: 1px solid #0099CC;
+        border-radius: 0px 0px 4px 4px;
+        padding: 0px 8px;
         margin-bottom: 7px;
         overflow: hidden;
+
+        icon {
+          width: 24px;
+          height: 24px;
+          color: #374761;
+        }
+
+        .content__main--expanded {
+          .targets {
+            margin: 8px 0px;
+            display: flex;
+
+            .target {
+              margin-left: 8px;
+            }
+          }
+
+          .vendors {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 8px;
+          }
+
+          .total {
+            margin-bottom: 8px;
+
+            .value {
+              margin-left: 8px;
+              color: #FF8800;
+            }
+          }
+
+          .divider--horizontal {
+            border: 1px solid #777777;
+            width: 100%;
+            opacity: 0.25;
+          }
+        }
+      }
+
+      .content__main--collapsed {
+        height: 32px;
+        position: absolute;
+        width: calc(100% - 2px);
+        left: 1px;
+        top: 31px;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        border-radius: 4px;
+        white-space: nowrap;
+        overflow: hidden;
+
+        .target {
+          color: #374761;
+          margin-left: 8px;
+
+          &:last-of-type {
+            margin-right: 8px;
+          }
+        }
+
+        .divider--vertical {
+          margin: 0px 8px;
+        }
       }
     }
   }

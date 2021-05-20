@@ -1,7 +1,16 @@
 :host { 
   display: block; 
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   height: 50vh;
+  width: 16vw;
+  min-width: 240px;
+  padding: 0px 8px;
+  border: 1px solid;
+}
+
+p {
+  margin: 8px 0px;
 }
 
 .time-line {
@@ -13,6 +22,6 @@
 }
 
 app-node {
-  width: 400px;
+  width: 100%;
 }
 

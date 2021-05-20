@@ -15,6 +15,17 @@ import { AfterViewInit, ChangeDetectorRef, Component, EventEmitter, Input, Outpu
       })),
       transition('expanded <=> collapsed', animate(175)),
     ]),
+    trigger('appearedDisappeared', [
+      state('appeared', style({
+        opacity: '1',
+        height: '32px'
+      })),
+      state('disappeared', style({
+        opacity: '0',
+        height: '0'
+      })),
+      transition('appeared <=> disappeared', animate(175)),
+    ]),
   ]
 })
 export class NodeComponent implements AfterViewInit {

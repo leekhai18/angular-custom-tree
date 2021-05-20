@@ -7,21 +7,47 @@
         <div class="root-linked"></div>
         <div #content class="content">
             <div #header class="content__header" (click)="onToggle.emit({rectBox: content, scrollTarget: header})">{{data['date']}}</div>
+
             <div #main class="content__main" 
                 [@expandedCollapsed]="{
                     value: isExpanded ? 'expanded' : 'collapsed',
                     params: {expandedHeight: main.scrollHeight}
                 }">
-                <p>{{main.scrollHeight}}</p>
-                <p>Target: {{data['target'].toString()}}</p>
-                <p class="ellipsis">Vendor: {{data['vendor'].toString()}}</p>
-                <p>Total anomalies: {{data['totalAnomalies']}}</p>
-                <p>{{data['segment']}}</p>
-                <p>{{data['source']}}</p>
-                <p>{{data['segment']}}</p>
-                <p>{{data['source']}}</p>
-                <p>VIEW REPORT</p>
+                <div class="content__main--expanded">
+                    <!-- <p>{{main.scrollHeight}}</p> -->
+                    <div class="targets">
+                        <span>Target:</span>
+                        <div class="list">
+                            <img class="target" src="./../../assets/crk.svg">
+                            <img class="target" src="./../../assets/crk.svg">
+                            <img class="target" src="./../../assets/crk.svg">
+                            <img class="target" src="./../../assets/crk.svg">
+                            <img class="target" src="./../../assets/crk.svg">
+                            <img class="target" src="./../../assets/crk.svg">
+                        </div>
+                    </div>
+                    <div class="vendors">
+                        <span>Vendor:</span>
+                        <div>
+                            <div *ngFor="let vendor of data['vendor']" class="ellipsis">- {{vendor}}</div>
+                        </div>
+                    </div>
+                    <div class="total"><span>Total anomalies:</span><span class="value">{{data['totalAnomalies']}}</span></div>
+                    <div class="divider--horizontal"></div>
+                    <div class="navigator">VIEW REPORT</div>
+                </div>
             </div>
+
+            <div class="content__main--collapsed"
+                [@appearedDisappeared]="isExpanded ? 'disappeared' : 'appeared'">
+                <!-- nếu 3 thì hiện 3, > 3 thì hiện 2 + x -->
+                <img class="target" src="./../../assets/crk.svg">
+                <img class="target" src="./../../assets/crk.svg">
+                <span class="target_number--hidden">+4</span>
+                <span class="divider--vertical">|</span>
+                <span class="vendor_number">2 vendors</span>
+            </div>
+
         </div>
     </div>
 </div>
